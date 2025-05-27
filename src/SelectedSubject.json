@@ -9,7 +9,7 @@
             "teacher": "ครู Colette",
             "room": "ห้องภาษาฝรั่งเศส",
             "condition": "เฉพาะแผนการเรียนภาษาอังกฤษ - ภาษาฝรั่งเศส",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLScpOU5nuJdLuqhoxvo4ilD0t2RGpGTJQlgJoNzOXr6ATTlRoA/viewform?usp=header"
         },
         {
             "id": 2,
@@ -20,7 +20,7 @@
             "teacher": "ครู Fumiyo",
             "room": "ห้องเซซีลีอา",
             "condition": "เฉพาะแผนการเรียนภาษาอังกฤษ - ภาษาญี่ปุ่น",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSc3SYEGZJSkPIPOoainYVV2vU9-TpEDZETVQBi1PLTXgWiNxg/viewform?usp=header"
         },
         {
             "id": 3,
@@ -31,7 +31,7 @@
             "teacher": "ครู XuJun Qi",
             "room": "ห้องภาษาจีน",
             "condition": "เฉพาะแผนการเรียนภาษาอังกฤษ - ภาษาจีน",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSf0FD4aIzEEpJDIaPHC2A00kmIxUgOa1dUmuieTA5SWubvtMw/viewform?usp=header"
         },
         {
             "id": 4,
@@ -42,7 +42,7 @@
             "teacher": "ครูนพเกล้าและครูปริชญา",
             "room": "ห้องสังคม",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdp2MGgG0ZgoeUaGrc7fGRIAaaGLQqX3zeWoB34pYxsM2HIHg/viewform?usp=header"
         },
         {
             "id": 5,
@@ -53,7 +53,7 @@
             "teacher": "ครูพิชชา",
             "room": "ห้องเรียนมัธยม 5/1",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdqgbIApJBqczY6nLRQKigr07FUhM037Efrl8LfRw7S0JaqqA/viewform?usp=header"
         },
         {
             "id": 6,
@@ -64,7 +64,7 @@
             "teacher": "ครู Laura และครู Casey",
             "room": "ห้องคณิตศาสตร์",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLScllO6JCTEwKctbgwA5tZA8eWMfiQhyTBnC0M9EfjyfUDJXDQ/viewform?usp=header"
         },
         {
             "id": 7,
@@ -75,7 +75,7 @@
             "teacher": "ครู Graham (Online)",
             "room": "ห้องอังกฤษ",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSe94wBzCVB48FC0ghJ-i1elyK8afRFBB_L8poN98mLAIF69zA/viewform?usp=header"
         },
         {
             "id": 8,
@@ -86,7 +86,7 @@
             "teacher": "ครูมณีจันท์",
             "room": "Art Center",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdOVusoYa_RV_oGz2i1eYX9BciNucNzCorcIIqUowAC1mGzDg/viewform?usp=header"
         },
         {
             "id": 9,
@@ -97,7 +97,7 @@
             "teacher": "ครูพิตตินันท์",
             "room": "Art Center",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://google.com"
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSc-EBzEGCVvZPtTwvQPJSy77m6TQQrZHDUXbMyKZ5zm4Su1Kg/viewform?usp=dialog"
         }
     ]
 }
