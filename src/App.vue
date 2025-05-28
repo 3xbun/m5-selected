@@ -26,8 +26,8 @@ const enableBtn = computed(() => targetTime.diff(currentTime) < 0 ? true : false
                     {{ subject.title }}
                 </h4>
                 <p class="condition">{{ subject.condition }}</p>
-                <p>{{ subject.teacher }}</p>
                 <p class="room"> {{ subject.room }}</p>
+                <p>{{ subject.teacher }}</p>
                 <p class="desc">{{ subject.desc }}</p>
                 <p v-if="subject.limit" class="limit">รับจำนวน <span>{{ subject.limit }}</span> คน</p>
                 <a v-if="enableBtn" class="btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=3igTlkXEg0GuZxGz_owYPqvKeNjLnNZHuTviLtU2oqVUQVBKR1hOTFdMMlFMNjhSMTlWRzM2TVJRWS4u" target="_blank">ลงทะเบียน</a>
@@ -95,8 +95,8 @@ img {
 }
 
 .condition {
-    color: #D3D3D3;
-    background-color: #F0F0F0;
+    color: #fff;
+    background-color: #E06141;
     width: fit-content;
     padding: 0 .5em;
     border-radius: 1em;
