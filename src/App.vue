@@ -30,7 +30,7 @@ const enableBtn = computed(() => targetTime.diff(currentTime) < 0 ? true : false
                 <p class="room"> {{ subject.room }}</p>
                 <p class="desc">{{ subject.desc }}</p>
                 <p v-if="subject.limit" class="limit">รับจำนวน <span>{{ subject.limit }}</span> คน</p>
-                <a v-if="enableBtn" class="btn" :href="subject.link" target="_blank">ลงทะเบียน</a>
+                <a v-if="enableBtn" class="btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=3igTlkXEg0GuZxGz_owYPqvKeNjLnNZHuTviLtU2oqVUQVBKR1hOTFdMMlFMNjhSMTlWRzM2TVJRWS4u" target="_blank">ลงทะเบียน</a>
                 <p v-else class="btn disable" >ลงทะเบียน</p>
             </div>
         </div>
