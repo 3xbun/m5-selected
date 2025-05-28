@@ -5,7 +5,7 @@ import dayjs from 'dayjs';
 import FlipCountdown from './components/FlipCountdown.vue';
 import { computed, provide, ref } from "vue";
 
-const targetTime = dayjs("2025-05-28 16:00")
+const targetTime = dayjs("2025-05-28 12:00")
 const currentTime = dayjs()
 provide("targetTime", targetTime)
 
