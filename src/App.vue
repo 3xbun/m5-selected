@@ -16,7 +16,7 @@ const enableBtn = computed(() => targetTime.diff(currentTime) < 0 ? true : false
     <FlipCountdown />
     <div class="container">
         <h1>วิชาเลือกเสรี</h1>
-        <h2>มัธยมศึกษาปีที่ 5 - ปีการศึกษา 2568</h2>
+        <h2>มัธยมศึกษาปีที่ 6 - ปีการศึกษา 2569</h2>
         <div class="contents">
             <div class="subject-card" v-for="subject in subjects">
                 <div class="img-wrapper">
