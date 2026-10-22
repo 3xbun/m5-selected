@@ -7,48 +7,67 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, onUnmounted } from 'vue';
-import Tick from "@pqina/flip";
-import "@pqina/flip/dist/flip.min.css";
+import { ref, onMounted, watch, onUnmounted } from 'vue'
+import Tick from '@pqina/flip'
+import '@pqina/flip/dist/flip.min.css'
 
 const props = defineProps({
   value: {
-    type: [String, Number], // Assuming value can be string or number based on typical usage
-    default: 0
-  }
-});
+    type: [String, Number],
+    default: 0,
+  },
+})
 
-const tick = ref(null); // Reference to the DOM element
-let _tickInstance = null; // To hold the Tick instance
+const tick = ref(null)
+let tickInstance = null
 
 onMounted(() => {
-  _tickInstance = Tick.DOM.create(tick.value, {
-    value: props.value
-  });
-});
+  tickInstance = Tick.DOM.create(tick.value, {
+    value: props.value,
+    credits: null,
+  })
+})
 
-watch(() => props.value, (newValue) => {
-  if (_tickInstance) {
-    _tickInstance.value = newValue;
-  }
-});
+watch(
+  () => props.value,
+  (newValue) => {
+    if (tickInstance) {
+      tickInstance.value = newValue
+    }
+  },
+)
 
 onUnmounted(() => {
-  if (_tickInstance) {
-    Tick.DOM.destroy(tick.value);
+  if (tickInstance) {
+    Tick.DOM.destroy(tick.value)
+    tickInstance = null
   }
-});
+})
 </script>
 
 <style scoped>
 .tick {
-  font-size: 2.5em;
+  font-size: clamp(1.65rem, 5.2vw, 2.35rem);
+  font-weight: 700;
+  line-height: 1.35;
+  font-variant-numeric: tabular-nums;
 }
 
-/* Media query for screens smaller than 480px (common mobile breakpoint) */
-@media (max-width: 480px) {
-.tick {
-  font-size: 2rem;
+.tick :deep(.tick-flip) {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow:
+    0 16px 30px -18px rgba(2, 6, 23, 0.95),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
+
+.tick :deep(.tick-flip-panel) {
+  background-color: #eef2fb;
+  background-image: linear-gradient(180deg, #ffffff 0%, #e6edfa 100%);
+  color: #0b1220;
+}
+
+.tick :deep(.tick-credits) {
+  display: none;
 }
 </style>
