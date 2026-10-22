@@ -4,9 +4,6 @@ import dayjs from 'dayjs'
 import { subjects } from './SelectedSubject.json'
 import FlipCountdown from './components/FlipCountdown.vue'
 
-const REGISTRATION_URL =
-  'https://forms.office.com/Pages/ResponsePage.aspx?id=3igTlkXEg0GuZxGz_owYPqvKeNjLnNZHuTviLtU2oqVUQVBKR1hOTFdMMlFMNjhSMTlWRzM2TVJRWS4u'
-
 const TARGET_TIME = dayjs('2026-10-23T10:00:00')
 const ALL_TRACKS = 'ทุกแผนการเรียน'
 
@@ -87,6 +84,10 @@ onUnmounted(() => {
 
 function isOpenToAll(condition) {
   return condition === ALL_TRACKS
+}
+
+function hasFormLink(subject) {
+  return Boolean(subject.link) && subject.link !== 'https://google.com'
 }
 
 /* ------------------------------------------------------------------ */
@@ -288,9 +289,9 @@ function onImageError(id) {
 
             <div class="card__footer">
               <a
-                v-if="isOpen"
+                v-if="isOpen && hasFormLink(subject)"
                 class="btn"
-                :href="REGISTRATION_URL"
+                :href="subject.link"
                 target="_blank"
                 rel="noopener noreferrer"
                 :aria-label="`ลงทะเบียนวิชา ${subject.title} (เปิดในแท็บใหม่)`"
@@ -322,14 +323,14 @@ function onImageError(id) {
                   <rect x="4.5" y="10" width="15" height="10" rx="2.5" />
                   <path d="M8 10V7a4 4 0 0 1 8 0v3" stroke-linecap="round" />
                 </svg>
-                เปิด {{ openAtShort }}
+                {{ isOpen ? 'ยังไม่มีแบบฟอร์ม' : `เปิด ${openAtShort}` }}
               </button>
             </div>
           </article>
         </div>
 
         <p v-if="isOpen" class="catalog__note">
-          การลงทะเบียนจะเปิดแบบฟอร์ม Microsoft Forms ในแท็บใหม่
+          การลงทะเบียนจะเปิดแบบฟอร์มในแท็บใหม่
         </p>
       </section>
     </main>
