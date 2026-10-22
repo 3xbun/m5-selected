@@ -56,15 +56,21 @@ onUnmounted(() => {
 .tick :deep(.tick-flip) {
   overflow: hidden;
   border-radius: 12px;
+  background: #101a2e;
   box-shadow:
     0 16px 30px -18px rgba(2, 6, 23, 0.95),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    0 0 0 1px rgba(255, 255, 255, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
 .tick :deep(.tick-flip-panel) {
-  background-color: #eef2fb;
-  background-image: linear-gradient(180deg, #ffffff 0%, #e6edfa 100%);
-  color: #0b1220;
+  background-color: #141f36;
+  background-image: linear-gradient(180deg, #1d2b48 0%, #111b2e 100%);
+  color: #f4f7ff;
+}
+
+.tick :deep(.tick-flip-panel-back:after) {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1px, rgba(0, 0, 0, 0.18) 0, transparent 30%);
 }
 
 .tick :deep(.tick-credits) {
