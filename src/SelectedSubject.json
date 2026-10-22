@@ -5,99 +5,110 @@
             "image": "https://cdn-icons-png.flaticon.com/512/3187/3187465.png",
             "title": "การสื่อสารภาษาฝรั่งเศส 3",
             "desc": "",
-            "limit": null,
-            "teacher": "ครู Colette",
+            "limit": 6,
+            "teacher": "ครูโคเล็ทท์",
             "room": "ห้องภาษาฝรั่งเศส",
             "condition": "เฉพาะแผนการเรียนภาษาอังกฤษ - ภาษาฝรั่งเศส",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLScpOU5nuJdLuqhoxvo4ilD0t2RGpGTJQlgJoNzOXr6ATTlRoA/viewform?usp=header"
+            "link": "https://google.com"
         },
         {
             "id": 2,
             "image": "https://cdn-icons-png.freepik.com/256/3498/3498617.png?semt=ais_hybrid",
-            "title": "การสื่อสารภาษาญี่ปุ่น 3",
+            "title": "ภาษาญี่ปุ่นและวัฒนธรรม",
             "desc": "",
-            "limit": null,
-            "teacher": "ครู Fumiyo",
+            "limit": 8,
+            "teacher": "ครู AKI",
             "room": "ห้องเซซีลีอา",
             "condition": "เฉพาะแผนการเรียนภาษาอังกฤษ - ภาษาญี่ปุ่น",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSc3SYEGZJSkPIPOoainYVV2vU9-TpEDZETVQBi1PLTXgWiNxg/viewform?usp=header"
+            "link": "https://google.com"
         },
         {
             "id": 3,
             "image": "https://images.vexels.com/media/users/3/163812/isolated/preview/43b163861168b8267f5999843d953346-china-flag-language-icon-circle.png",
-            "title": "ภาษาจีนและวัฒนธรรม 3",
+            "title": "ภาษาจีนและวัฒนธรรม 5",
             "desc": "",
-            "limit": null,
-            "teacher": "ครู XuJun Qi",
+            "limit": 18,
+            "teacher": "ครูหวัง หย่งคัง",
             "room": "ห้องภาษาจีน",
             "condition": "เฉพาะแผนการเรียนภาษาอังกฤษ - ภาษาจีน",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSf0FD4aIzEEpJDIaPHC2A00kmIxUgOa1dUmuieTA5SWubvtMw/viewform?usp=header"
+            "link": "https://google.com"
         },
         {
             "id": 4,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBUXq2KFBosbcg6xuEHq6HCUjuC8HQJqq5ug&s",
-            "title": "ประวัติศาสตร์เอเชียตะวันออกสมัยใหม่",
-            "desc": "ศึกษาประวัติศาสตร์ของจีน ญี่ปุ่นและเกาหลี ในช่วงคริสต์ศตวรรษที่ 19 รวมถึงความร่วมมือและความขัดแย้งที่เกิดขึ้นในภูมิภาคเอเชียตะวันออกในยุคร่วมสมัย ผ่านกิจกรรมที่ใช้กระบวนการวิเคราะห์หลักฐาน การวิพากย์ การอภิปรายรวมถึงกิจกรรมภาคปฏิบัติเพื่อเรียนรู้ประวัติศาสตร์ของประเทศต่าง ๆ",
-            "limit": 20,
-            "teacher": "ครูนพเกล้าและครูปริชญา",
-            "room": "ห้องสังคม",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9CRCboH6k8M-wwzVmWWakyj1J4KbdXlS1-CL8INEf0g&s=10",
+            "title": "การประยุกต์ความรู้ทางสังคม",
+            "desc": "",
+            "limit": 8,
+            "teacher": "ครูปริชญา ครูศุภสิทธิ์ และครูนพเกล้า",
+            "room": "ห้อง ม.6/1",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdp2MGgG0ZgoeUaGrc7fGRIAaaGLQqX3zeWoB34pYxsM2HIHg/viewform?usp=header"
+            "link": "https://google.com"
         },
         {
             "id": 5,
-            "image": "https://static.vecteezy.com/system/resources/previews/015/015/305/non_2x/folklore-book-icon-flat-isolated-vector.jpg",
-            "title": "คติชนวิทยา (Folklore)",
-            "desc": "วิชาที่ว่าด้วยการศึกษาเกี่ยวกับพฤติกรรมของมนุษย์ผ่านมิติของวัฒนธรรมอย่างองค์รวม โดยเน้นการวิเคราะห์การแสดงออกในชุมชนและกลุ่มสังคมต่าง ๆ รวมถึงการศึกษารูปแบบการถ่ายทอดความรู้ของชาวบ้าน เช่น ดนตรี นิทาน ตำนาน อาหาร ที่อยู่อาศัย ฯลฯ วิชานี้เปิดโอกาสให้นักเรียนได้เข้าใจความสัมพันธ์ระหว่างวัฒนธรรมเชิงวิชาการ โดยต้องไม่มีการตัดสินค่าความเชื่อหรือวัฒนธรรมใด ๆ ว่าถูกหรือผิด เพื่อให้เห็นคุณค่า และภูมิปัญญาในท้องถิ่นที่มีอิทธิพลต่อสังคมปัจจุบันอย่างแท้จริง",
-            "limit": 20,
-            "teacher": "ครูพิชชา",
-            "room": "ห้องเรียนมัธยม 5/1",
+            "image": "https://cdn-icons-png.flaticon.com/512/11777/11777487.png",
+            "title": "พัฒนาทักษะชีวิต",
+            "desc": "",
+            "limit": 8,
+            "teacher": "ครูวรรณนิศา ครูณัฐวัฒน์ และครูบรรณสรณ์",
+            "room": "ห้อง ม.6/2",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdqgbIApJBqczY6nLRQKigr07FUhM037Efrl8LfRw7S0JaqqA/viewform?usp=header"
+            "link": "https://google.com"
         },
         {
             "id": 6,
-            "image": "https://cdn-icons-png.flaticon.com/512/2247/2247878.png",
-            "title": "SAT MATH",
-            "desc": "เป็นรายวิชาที่มุ่งฝึกทำโจทย์คณิตศาสตร์ที่พบได้บ่อยในการสอบ SAT รวมถึงการใช้โปรแกรม DESMOS ช่วยในการทำข้อสอบ",
-            "limit": 20,
-            "teacher": "ครู Laura และครู Casey",
-            "room": "ห้องคณิตศาสตร์",
-            "condition": "ทุกแผนการเรียน",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLScllO6JCTEwKctbgwA5tZA8eWMfiQhyTBnC0M9EfjyfUDJXDQ/viewform?usp=header"
-        },
-        {
-            "id": 7,
-            "image": "https://png.pngtree.com/png-clipart/20230916/original/pngtree-the-titanic-classic-cruise-ship-line-icons-vector-png-image_12261582.png",
-            "title": "Titanic 2",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/008/721/384/small/thailand-flag-and-musical-note-vector.jpg",
+            "title": "วงปี่พาทย์",
             "desc": "",
-            "limit": 20,
-            "teacher": "ครู Graham (Online)",
-            "room": "ห้องอังกฤษ",
-            "condition": "ทุกแผนการเรียน",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSe94wBzCVB48FC0ghJ-i1elyK8afRFBB_L8poN98mLAIF69zA/viewform?usp=header"
-        },
-        {
-            "id": 8,
-            "image": "https://i.pinimg.com/736x/a4/18/56/a418569aae14a8fe7c90c1962bdce94f.jpg",
-            "title": "Drum Show",
-            "desc": "ชวนคุณมาปลุกจังหวะในตัวเองตีกลองด้วย “ถังสี” — เสียงจังหวะที่ไม่ธรรมดาแต่เต็มไปด้วยพลังและความสร้างสรรค์ สนุก ปล่อยพลัง และสร้างสรรค์โชว์สุดเท่ ที่คุณออกแบบเองไม่ว่าคุณจะมีพื้นฐานหรือไม่ แค่มีใจพร้อมลุย เสียงกลองก็พร้อมดังไปกับคุณ!",
-            "limit": "15 - 20",
-            "teacher": "ครูมณีจันท์",
-            "room": "Art Center",
-            "condition": "ทุกแผนการเรียน",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdOVusoYa_RV_oGz2i1eYX9BciNucNzCorcIIqUowAC1mGzDg/viewform?usp=header"
-        },
-        {
-            "id": 9,
-            "image": "https://t4.ftcdn.net/jpg/14/01/87/31/360_F_1401873180_eL0X20tM9fXSBbdRiPnKE665PD6DFPRP.jpg",
-            "title": "การดนตรีปฏิบัติ (ดนตรีไทย)",
-            "desc": "ปฏิบัติเครื่องดนตรีตามความสนใจ ฝึกบรรเลงเพลงไทยเดิมเพราะ ๆ แล้วมารวมวงบรรเลงโชว์เพื่อน ๆ กันจ้าาาา",
-            "limit": "8 - 10",
+            "limit": 8,
             "teacher": "ครูพิตตินันท์",
             "room": "Art Center",
             "condition": "ทุกแผนการเรียน",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSc-EBzEGCVvZPtTwvQPJSy77m6TQQrZHDUXbMyKZ5zm4Su1Kg/viewform?usp=dialog"
+            "link": "https://google.com"
+        },
+        {
+            "id": 7,
+            "image": "https://cdn-icons-png.flaticon.com/512/2445/2445272.png",
+            "title": "ละครสมัยใหม่",
+            "desc": "",
+            "limit": "8",
+            "teacher": "ครูธีรณัฐ",
+            "room": "ห้องอังกฤษ",
+            "condition": "ทุกแผนการเรียน",
+            "link": "https://google.com"
+        },
+        {
+            "id": 8,
+            "image": "https://cdn-icons-png.flaticon.com/512/10089/10089821.png",
+            "title": "เทคนิคศิลปะ",
+            "desc": "",
+            "limit": "8",
+            "teacher": "ครูเนาวรัตน์",
+            "room": "Art Center",
+            "condition": "ทุกแผนการเรียน",
+            "link": "https://google.com"
+        },
+        {
+            "id": 9,
+            "image": "https://cdn-icons-png.flaticon.com/512/3429/3429255.png",
+            "title": "ดนตรีสากล (ปฏิบัติ 2)",
+            "desc": "",
+            "limit": "8",
+            "teacher": "ครูฉัตรกุล",
+            "room": "Art Center",
+            "condition": "ทุกแผนการเรียน",
+            "link": "https://google.com"
+        },
+        {
+            "id": 10,
+            "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-setting-vector-icon-png-image_2051897.jpg",
+            "title": "ช่างประจำบ้าน",
+            "desc": "",
+            "limit": "8",
+            "teacher": "ครูประพนธ์",
+            "room": "ห้องเกรโกรี",
+            "condition": "ทุกแผนการเรียน",
+            "link": "https://google.com"
         }
     ]
 }
