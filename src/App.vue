@@ -4,7 +4,7 @@ import dayjs from 'dayjs'
 import { subjects } from './SelectedSubject.json'
 import FlipCountdown from './components/FlipCountdown.vue'
 
-const TARGET_TIME = dayjs('2026-10-23T10:00:00')
+const TARGET_TIME = dayjs('2026-10-22T11:36:30')
 const ALL_TRACKS = 'ทุกแผนการเรียน'
 
 const targetDateLong = new Intl.DateTimeFormat('th-TH', {
